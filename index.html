@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chelsea Clay | Online Registration Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700' rel='stylesheet' type='text/css'>
+</head>
+  
+  
+<body>
+  <header>
+    <h1>The Code Review</h1>
+    <h2>Sign Up for Our Newsletter</h2>
+    <p>Get the latest news on how your code is doing right in your inbox</p>
+  </header>
+  
+  
+  <form action="index.html" method="post">
+    <fieldset id="contact-info">
+      <legend>Contact Information</legend>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="user-name" placeholder="Required" required>
+      
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="user-email" placeholder="Required" required>
+      
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="user-phone" placeholder="XXX-XXX-XXXX">
+      
+      <label for="address">Street Address</label>
+      <input type="text" id="address" name="user-address">
+      
+      <label for="city">City</label>
+      <input type="text" id="city" name="user-city">
+      
+      <label for="state">State</label>
+      <select id="state" name="state">
+        <option value="" selected>Choose State</option>
+        <option value="Alabama">Alabama</option>
+        <option value="Alaska">Alaska</option>
+        <option value="Arizona">Arizona</option>
+        <option value="Arkansas">Arkansas</option>
+        <option value="California">California</option>
+        <option value="Colorado">Colorado</option>
+        <option value="Connecticut">Connecticut</option>
+        <option value="Delaware">Delaware</option>
+        <option value="District-of-Columbia">District of Columbia</option>
+        <option value="Florida">Florida</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Hawaii">Hawaii</option>
+        <option value="Idaho">Idaho</option>
+        <option value="Illinois">Illinois</option>
+        <option value="Indiana">Indiana</option>
+        <option value="Iowa">Iowa</option>
+        <option value="Kansas">Kansas</option>
+        <option value="Kentucky">Kentucky</option>
+        <option value="Louisiana">Louisiana</option>
+        <option value="Maine">Maine</option>
+        <option value="Maryland">Maryland</option>
+        <option value="Massachusetts">Massachusetts</option>
+        <option value="Michigan">Michigan</option>
+        <option value="Minnesota">Minnesota</option>
+        <option value="Mississippi">Mississippi</option>
+        <option value="Missouri">Missouri</option>
+        <option value="Montana">Montana</option>
+        <option value="Nebraska">Nebraska</option>
+        <option value="Nevada">Nevada</option>
+        <option value="New-Hampshire">New Hampshire</option>
+        <option value="New-Jersey">New Jersey</option>
+        <option value="New-Mexic">New Mexico</option>
+        <option value="New-York">New York</option>
+        <option value="North-Carolina">North Carolina</option>
+        <option value="North-Dakota">North Dakota</option>
+        <option value="Ohio">Ohio</option>
+        <option value="Oklahoma">Oklahoma</option>
+        <option value="Oregon">Oregon</option>
+        <option value="Pennsylvania">Pennsylvania</option>
+        <option value="Rhode-Island">Rhode Island</option>
+        <option value="South-Carolina">South Carolina</option>
+        <option value="South-Dakota">South Dakota</option>
+        <option value="Tennessee">Tennessee</option>
+        <option value="Texas">Texas</option>
+        <option value="Utah">Utah</option>
+        <option value="Vermont">Vermont</option>
+        <option value="Virginia">Virginia</option>
+        <option value="Washington">Washington</option>
+        <option value="West-Virginia">West Virginia</option>
+        <option value="Wisconsin">Wisconsin</option>
+        <option value="Wyoming">Wyoming</option>
+      </select>
+      
+      <label for="zip">Zip Code</label>
+      <input type="text" id="zip" name="user-zip">
+      
+    </fieldset>
+    
+    <hr />
+
+    <fieldset id="newsletter">
+      <legend>Newsletter</legend>
+      <label class="subhead">Select the newsletters you would like to receive.</label>
+      
+      <input type="checkbox" id="html-news" name="html-news">
+      <label for="html-news">HTML News</label><br />
+      
+      <input type="checkbox" id="css-news" name="css-news">
+      <label for="css-news">CSS News</label><br />
+      
+      <input type="checkbox" id="java-news" name="java-news">
+      <label for="java-news">Javascript News</label><br />
+      
+      <label class="subhead">Newsletter Format</label>
+      
+      <input type="radio" id="html" value="html" name="format">
+      <label for="html">HTML</label><br />
+      
+      <input type="radio" id="plain" value="plain" name="format">
+      <label for="plain">Plain text</label><br />
+      
+      <label class="subhead">Frequency</label>
+      
+      <input type="radio" id="daily" value="daily" name="frequency">
+      <label for="daily">Daily</label><br />
+      
+      <input type="radio" id="weekly" value="weekly" name="frequency">
+      <label for="weekly">Weekly</label><br />
+      
+      <input type="radio" id="monthly" value="monthly" name="frequency">
+      <label for="monthly">Monthly</label><br />
+      
+      <label for="topics"  class="subhead">Other topics you'd like to hear about</label>
+      <textarea id="topics" name="user-topics"></textarea>
+      
+      <label for="reference"  class="subhead">Where did you hear about us?</label>
+      <select id="reference" name="reference">
+        <option value="" selected>Please Select</option>
+        <option value="search-engine">Search engine</option>
+        <option value="social-media">Social media</option>
+        <option value="magazine">Magazine</option>
+        <option value="friend">Friend</option>
+        <option value="other">Other</option>
+      </select>
+      
+      <label class="subhead" for="explain">If other, please explain.</label>
+      <input type="text" id="explain" name="other-option">
+    </fieldset>
+    
+    <button type="reset" value="reset">Reset</button>
+    <button type="submit" value="submit">Sign Up</button>
+  </form>
+  <p id="copyright">Copyright The Code Review</p>
+  
+</body>
+</html>
