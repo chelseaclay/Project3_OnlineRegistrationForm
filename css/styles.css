@@ -1,3 +1,5 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css");
+
 /* -------------------------------------General Styles-------------------------------------*/
 
 * {
@@ -66,6 +68,58 @@ form {
   padding-left: 0;
   margin-top: 30px;
   text-align: center;
+}
+
+/* -------------------------------------Custom Check Boxes and Radio Button Styles-------------------------------------*/
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"] + .news:before {
+	content: "\f096";
+	font-family: "FontAwesome";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	~webkit-font-smoothing: antualiased;
+	width: 1em;
+	margin: 0 8px 20px -8px;
+	display: inline-block;
+	color: #2c2c3a;
+}
+
+input[type="checkbox"]:checked + .news:before {
+	content: "\f046";
+	color: #06e0e0;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"] + .radio:before {
+	content: "\f10c";
+	font-family: "FontAwesome";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	~webkit-font-smoothing: antualiased;
+	width: 1em;
+	margin: 0 8px 20px -8px;
+	display: inline-block;
+	color: #2c2c3a;
+}
+
+input[type="radio"]:checked + .radio:before {
+	content: "\f192";
+	color: #06e0e0;
 }
 
 /* -------------------------------------Form Styles-------------------------------------*/
@@ -243,6 +297,7 @@ button[type="submit"]:hover {
   box-shadow:none;
   border-bottom: 2px solid #ff6600;
 }
+
 
 /* -------------------------------------Media Query Styles-------------------------------------*/
 
