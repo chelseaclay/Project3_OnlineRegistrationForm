@@ -90,7 +90,6 @@ input[type="checkbox"] + .news:before {
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-	~webkit-font-smoothing: antualiased;
 	width: 1em;
 	margin: 0 8px 20px -8px;
 	display: inline-block;
@@ -115,7 +114,6 @@ input[type="radio"] + .radio:before {
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-	~webkit-font-smoothing: antualiased;
 	width: 1em;
 	margin: 0 8px 20px -8px;
 	display: inline-block;
