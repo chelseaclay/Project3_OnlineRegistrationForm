@@ -1,4 +1,9 @@
-@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css");
+@import url("font-awesome.min.css");
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(../fonts/FontAwesome.otf);
+}
 
 /* -------------------------------------General Styles-------------------------------------*/
 
