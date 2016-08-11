@@ -41,6 +41,8 @@ header h2 {
   padding: 10px 1em 10px;
   text-align: center;
   color: #2c2c3a;
+  font-size: 2.25em;
+  line-height: 1.25em;
 }
 
 p,
@@ -51,6 +53,7 @@ label {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   font-size: 0.75em;
+  line-height: 1.75em;
 }
 
 legend {
@@ -78,7 +81,7 @@ form {
 /* -------------------------------------Custom Check Boxes and Radio Button Styles-------------------------------------*/
 
 input[type="checkbox"] {
-	display: none;
+	opacity: 0;
 }
 
 input[type="checkbox"] + .news:before {
@@ -91,7 +94,7 @@ input[type="checkbox"] + .news:before {
 	text-transform: none;
 	line-height: 1;
 	width: 1em;
-	margin: 0 8px 20px -8px;
+	margin: 0 8px 20px -35px;
 	display: inline-block;
 	color: #2c2c3a;
 }
@@ -102,7 +105,7 @@ input[type="checkbox"]:checked + .news:before {
 }
 
 input[type="radio"] {
-	display: none;
+	opacity: 0;
 }
 
 input[type="radio"] + .radio:before {
@@ -115,7 +118,7 @@ input[type="radio"] + .radio:before {
 	text-transform: none;
 	line-height: 1;
 	width: 1em;
-	margin: 0 8px 20px -8px;
+	margin: 0 8px 20px -35px;
 	display: inline-block;
 	color: #2c2c3a;
 }
@@ -222,6 +225,11 @@ textarea:focus {
 input[type="checkbox"]:checked+label,
 input[type="radio"]:checked+label {
   font-weight: 700;
+}
+
+input[type="checkbox"]:focus+label,
+input[type="radio"]:focus+label {
+  text-decoration: underline;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
