@@ -101,7 +101,7 @@ input[type="checkbox"] + .news:before {
 
 input[type="checkbox"]:checked + .news:before {
 	content: "\f046";
-	color: #06e0e0;
+	color: #355476;
 }
 
 input[type="radio"] {
@@ -125,7 +125,7 @@ input[type="radio"] + .radio:before {
 
 input[type="radio"]:checked + .radio:before {
 	content: "\f192";
-	color: #06e0e0;
+	color: #355476;
 }
 
 /* -------------------------------------Form Styles-------------------------------------*/
@@ -217,7 +217,7 @@ input:focus,
 select:focus,
 textarea:focus {
   background-color: rgba(255, 255, 229, 0.65);
-  border-bottom: 2px solid #2c2c3a;
+  border-bottom: 2px solid #355476;
   box-shadow: none;
 }
 
@@ -262,7 +262,7 @@ input:invalid {
 
 input[placeholder="Required"]:valid {
   box-shadow: none;
-  border-bottom: 2px solid #06e0e0;
+  border-bottom: 2px solid #355476;
 }
 
 
@@ -313,7 +313,7 @@ button[type="reset"] {
 }
 
 button[type="submit"] {
-  background-color: #06e0e0;
+  background-color: #355476;
 }
 
 button[type="reset"]:hover {
@@ -322,7 +322,7 @@ button[type="reset"]:hover {
 }
 
 button[type="submit"]:hover {
-  background-color: #05c7c7;
+  background-color: #2c333a;
   box-shadow: 0 2px 5px #ccc;
 }
 
@@ -345,21 +345,21 @@ button[type="submit"]:hover {
       max-width: 700px;
       text-align: center;
     }
-  
+
   header {
       background: url("../img/pattern-lg.svg") no-repeat center;
       background-size: cover;
       overflow: hidden;
     }
-  
+
   header h2 {
       padding: 30px 1em 10px;
     }
-    
+
   header p {
       padding-bottom: 40px;
     }
-  
+
     #contact-info input,
     #contact-info label,
     select,
@@ -370,14 +370,14 @@ button[type="submit"]:hover {
     button {
       display: inline-block;
   }
-  
+
   #contact-info input,
   select,
   #reference,
   #explain {
     width: 69%;
   }
-  
+
   #contact-info label,
   label[for="reference"],
   label[for="explain"]{
@@ -406,7 +406,7 @@ button[type="submit"]:hover {
   form {
     max-width: 850px;
     text-align: center;
-  } 
+  }
 
   #contact-info input,
   select,
@@ -414,22 +414,22 @@ button[type="submit"]:hover {
   #explain {
     width: 75%;
   }
-  
+
   #contact-info label,
   label[for="reference"],
   label[for="explain"]{
     width: 24%;
   }
-  
+
   button {
     padding: 10px;
     margin: 0 auto;
   }
-  
+
   button[type="reset"] {
     max-width: 150px;
   }
-  
+
   button[type="submit"] {
     max-width: 150px;
   }
