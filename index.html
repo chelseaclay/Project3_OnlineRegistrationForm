@@ -7,21 +7,22 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700' rel='stylesheet' type='text/css'>
 </head>
-  
-  
+
+
 <body>
   <header>
     <h1>The Code Review</h1>
     <h2>Sign Up for Our Newsletter</h2>
     <p>Get the latest news on how your code is doing right in your inbox</p>
   </header>
-  
-  
-  <form action="index.html" method="post">
+
+
+  <form action="#" method="post">
     <fieldset id="contact-info">
       <legend>Contact Information</legend>
       
       <label for="name">Full Name</label>
+<<<<<<< HEAD
       <input type="text" id="name" name="user-name" value="" pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" placeholder="Required" required>
       
       <label for="email">Email Address</label>
@@ -36,6 +37,22 @@
       <label for="city">City</label>
       <input type="text" id="city" name="user-city" value="">
       
+=======
+      <input type="text" id="name" name="user-name" pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" placeholder="Required" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="user-email" placeholder="Required" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="user-phone" placeholder="XXX-XXX-XXXX">
+
+      <label for="address">Street Address</label>
+      <input type="text" id="address" name="user-address">
+
+      <label for="city">City</label>
+      <input type="text" id="city" name="user-city">
+
+>>>>>>> master
       <label for="state">State</label>
       <select id="state" name="state">
         <option value="" selected>Choose State</option>
@@ -91,49 +108,54 @@
         <option value="Wisconsin">Wisconsin</option>
         <option value="Wyoming">Wyoming</option>
       </select>
-      
+
       <label for="zip">Zip Code</label>
+<<<<<<< HEAD
       <input type="text" id="zip" name="user-zip" value="">
       
+=======
+      <input type="text" id="zip" name="user-zip">
+
+>>>>>>> master
     </fieldset>
-    
+
     <hr />
 
     <fieldset id="newsletter">
       <legend>Newsletter</legend>
       <label class="subhead">Select the newsletters you would like to receive.</label>
-      
+
       <input type="checkbox" id="html-news" name="html-news">
       <label for="html-news" class="news">HTML News</label><br />
-      
+
       <input type="checkbox" id="css-news" name="css-news">
       <label for="css-news" class="news">CSS News</label><br />
-      
+
       <input type="checkbox" id="java-news" name="java-news">
       <label for="java-news"  class="news">Javascript News</label><br />
-      
+
       <label class="subhead">Newsletter Format</label>
-      
+
       <input type="radio" id="html" value="html" name="format">
       <label for="html" class="radio">HTML</label><br />
-      
+
       <input type="radio" id="plain" value="plain" name="format">
       <label for="plain" class="radio">Plain text</label><br />
-      
+
       <label class="subhead">Frequency</label>
-      
+
       <input type="radio" id="daily" value="daily" name="frequency">
       <label for="daily" class="radio">Daily</label><br />
-      
+
       <input type="radio" id="weekly" value="weekly" name="frequency">
       <label for="weekly" class="radio">Weekly</label><br />
-      
+
       <input type="radio" id="monthly" value="monthly" name="frequency">
       <label for="monthly" class="radio">Monthly</label><br />
-      
+
       <label for="topics"  class="subhead">Other topics you'd like to hear about</label>
       <textarea id="topics" name="user-topics" placeholder="Such as Ruby, Python, iOS, etc."></textarea>
-      
+
       <label for="reference"  class="subhead">Where did you hear about us?</label>
       <select id="reference" name="reference">
         <option value="" selected>Please Select</option>
@@ -143,15 +165,15 @@
         <option value="friend">Friend</option>
         <option value="other">Other</option>
       </select>
-      
+
       <label class="subhead" for="explain">If other, please explain.</label>
       <input type="text" id="explain" name="other-option" value="">
     </fieldset>
-    
+
     <button type="reset" value="reset">Reset</button>
     <button type="submit" value="submit">Sign Up</button>
   </form>
   <p id="copyright">Copyright The Code Review</p>
-  
+
 </body>
 </html>
